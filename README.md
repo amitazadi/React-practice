@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-The main motive to make this project was to revise react and javascript concepts[Create React App](https://github.com/facebook/create-react-app).
+The main motive to make this project was to revise react and javascript concepts
 
 Here I implemented some features like sorting, searching, and pagination.
 
