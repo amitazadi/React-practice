@@ -155,24 +155,26 @@ function Array() {
         </div>
       </div>
 
-      {data.length === 0 ? (
-        <h1 className="loading">Loading...</h1>
-      ) : (
-        <div className="data">
-          <div className="table">
-            {displaydata?.map((data, index) => {
-              return (
-                <div className="row" key={index}>
-                  <div className="contentBox">
-                    <div className="dataApi">{data.API}</div>
-                    <div className="dataDescription">{data.Description}</div>
+      <div className="middle-container">
+        {data.length === 0 ? (
+          <h1 className="loading">Loading...</h1>
+        ) : (
+          <div className="data">
+            <div className="table">
+              {displaydata?.map((data, index) => {
+                return (
+                  <div className="row" key={index}>
+                    <div className="contentBox">
+                      <div className="dataApi">{data.API}</div>
+                      <div className="dataDescription">{data.Description}</div>
+                    </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
 
       <div className="button">
         {count <= 0 ? null : (

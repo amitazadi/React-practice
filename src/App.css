@@ -2,8 +2,6 @@ body {
   background-color: #51524e;
 }
 
-
-
 .contentBox {
   display: flex;
   align-items: center;
@@ -44,7 +42,6 @@ body {
   color: white;
   border: 3px solid #0a0a0a;
   box-shadow: 0 0 20px #5c4c7ce8;
-
 }
 
 input {
@@ -78,7 +75,7 @@ input {
   align-items: center;
   justify-content: center;
   margin: 20px;
-  /* height: 1000px; */
+  /* height: 1050px; */
 }
 
 button {
@@ -93,6 +90,7 @@ button {
   background-color: white;
   color: black;
   border: 3px solid #4caf50;
+  height: 50px;
 }
 
 button:hover {
@@ -117,13 +115,13 @@ button:hover {
   font-weight: 600;
   width: 400px;
   border: 4px solid;
-
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: absolute;
   right: 2%;
-  top: 20%;
+  top: 22%;
 }
 
 div:last-child {
@@ -137,33 +135,37 @@ div:last-child {
   color: white;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: #1e212d;
-  /* position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%; */
-
   padding: 50px 10px 50px;
 }
 
-a{
-  color:#f8f1f1;
+a {
+  color: #f8f1f1;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  padding-left:50px;
-  padding-top:10px;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 50px;
+  padding-top: 10px;
   text-decoration: none;
   font-size: 20px;
 }
-a:hover{
+a:hover {
   color: #ac9696;
 }
 
-.footerlink{
+.footerlink {
   display: flex;
   align-items: center;
   justify-content: center;
-  color:#EAF6F6;
+  color: #eaf6f6;
   font-size: 17px;
+}
+
+.middle-container {
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  margin: 20px;
+  min-height: 240px;
+  max-height: 1050px;
 }

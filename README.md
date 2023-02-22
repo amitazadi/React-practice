@@ -1,12 +1,12 @@
 # Getting Started with Create React App
 
-The main motive to make this project was to revise react and javascript concepts[Create React App](https://github.com/facebook/create-react-app).
+The main motive to make this project was to revise react and javascript concepts
 
 Here I implemented some features like sorting, searching, and pagination.
 
 Here I used pure CSS for styling purpose.
 
-![alt text]()
+![alt text](https://github.com/amitazadi/React-practice/blob/master/src/images/demo2.png?raw=true)
 
 
 ## Available Scripts
